@@ -1,11 +1,11 @@
 {
-  "author": "Malte Legenhausen <mlegenhausen@gmail.com>",
-  "name": "ogone-directlink",
-  "description": "Thin wrapper around the directlink http api of the ogone payment service",
+  "author": "Florent M <florent.michenaud@gmail.com>",
+  "name": "ogone-directlink-3dsecure",
+  "description": "Thin wrapper around the directlink http api of the ogone payment service, includes 3D secure technology",
   "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mlegenhausen/node-ogone-directlink.git"
+    "url": "git://github.com/fmichenaud/node-ogone-directlink.git"
   },
   "scripts": {
     "test": "nodeunit test/"
