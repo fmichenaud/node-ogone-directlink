@@ -21,5 +21,15 @@
   },
   "devDependencies": {
     "nodeunit": "0.x.x"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/fmichenaud/node-ogone-directlink/issues"
+  },
+  "homepage": "https://github.com/fmichenaud/node-ogone-directlink#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "MIT"
 }

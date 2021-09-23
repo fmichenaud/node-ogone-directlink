@@ -9,7 +9,7 @@ Installation
 ============
 
 ```
-npm install ogone-directlink
+npm i ogone-directlink-3dsecure
 ```
 
 Running the Tests
@@ -25,7 +25,7 @@ Howto Use
 First of all read the Ogone DirectLink documentation and then continue reading.
 
 ```js
-var Ogone = require('ogone-directlink');
+var Ogone = require('ogone-directlink-3dsecure');
 
 // Creates a ogone object in test mode. Change the last parameter to switch in prod mode.
 var ogone = new Ogone('test' /* 'prod' */, {
