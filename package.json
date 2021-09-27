@@ -2,7 +2,7 @@
   "author": "Florent M <florent.michenaud@gmail.com>",
   "name": "ogone-directlink-3dsecure",
   "description": "Thin wrapper around the directlink http api of the ogone payment service, includes 3D secure technology",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/fmichenaud/node-ogone-directlink.git"
@@ -11,12 +11,12 @@
     "test": "nodeunit test/"
   },
   "engines": {
-    "node": "~0.6.6"
+    "node": "~14.17.0"
   },
   "dependencies": {
     "sugar": "1.x.x",
     "request": "1.x.x",
-    "json-schema": "git://github.com/kriszyp/json-schema.git",
+    "json-schema": "0.3.0",
     "xml2js": "~0.2.8"
   },
   "devDependencies": {
